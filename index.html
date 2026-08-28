@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Product Page</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    
+    <main class="product-card">
+      <!-- Left Section: Image -->
+      <section class="product-gallery">
+        <img
+          src="images/shoe_image.jpg"
+          alt="Nike Air Zoom Pegasus 38 for Running Men"
+          class="product-image"
+        />
+      </section>
+
+      <!-- Right Section: Content -->
+      <section class="product-details">
+        <!-- Breadcrumb Navigation -->
+        <nav class="breadcrumb-nav">
+          <a href="#" class="breadcrumb-link">Home</a> -
+          <a href="#" class="breadcrumb-link">Products</a> -
+          <a href="#" class="breadcrumb-link">Sneakers</a>
+        </nav>
+
+        
+        <div class="heading-description">
+          <!-- Product Title -->
+          <h1 class="product-title">
+            Nike Air Zoom Pegasus 38 for Running Men
+          </h1>
+
+          <!-- Product Description -->
+          <p class="product-description">
+            The Nike Air Zoom Pegasus 38 is a high-performance running shoe
+            designed for speed and agility. With its lightweight and responsive
+            midsole, this shoe provides a smooth ride and excellent cushioning.
+            The Pegasus 38 features a full-length Zoom Air unit for added bounce
+            and a more natural stride. The upper is made of a breathable mesh
+            material with a supportive Flyknit construction for a snug and
+            comfortable fit.
+          </p>
+        </div>
+
+        <!-- Product Highlights -->
+        <div class="product-highlights">
+          <h3 class="highlights-title">Hightlights:</h3>
+          <ul class="highlights-list">
+            <li class="highlight-item">Lightweight and Responsive Midsole.</li>
+            <li class="highlight-item">Full-Length Zoom Air Unit.</li>
+            <li class="highlight-item">Breathable Mesh Uppe.</li>
+          </ul>
+        </div>
+
+        <!-- Product Specifications / Pricing Box -->
+        <div class="product-info-bar">
+          <div class="info-group color-group">
+            <span class="info-label">COLOR</span>
+            <span class="info-value">Black</span>
+          </div>
+          <div class="info-group size-group">
+            <span class="info-label">SIZE</span>
+            <span class="info-value">42</span>
+          </div>
+          <div class="price-group">
+            <span class="product-price">$59.00</span>
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="product-actions">
+          <button type="button" class="btn btn-add-to-cart">Add to cart</button>
+          <button type="button" class="btn btn-add-to-wishlist">
+            <!-- <span class="wishlist-icon">&#9825;</span> Add to wishlist -->
+              <span class="wishlist-icon"><img src="images/heart.svg" alt=""></span> Add to wishlist
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
